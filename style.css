@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Commissioner:wght@400;500;700&family=Exo:wght@100&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&family=Plus+Jakarta+Sans:wght@500;800&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,600;1,8..144,300&family=Roboto:wght@400;700;900&family=Rubik:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(189, 189, 234);
+ 
+}
+
+/* container */
+main{
+    width: 85%;
+    margin: 1rem auto;
+    margin-top: 2.5rem;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(56, 56, 56);
+}
+.details{
+    font-family: serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+.container{
+    /* background-color: rgb(183, 183, 215); */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0 .7rem;
+    position: relative;
+}
+#qoute{
+    font-size: 2rem;
+    padding: .2rem .5rem;
+    font-weight: 500;
+}
+button{
+    border: none;
+    padding: .7rem 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    border-radius: .5rem;
+    color: rgb(240, 231, 231);
+    background-color: rgba(139, 71, 203, 0.967);
+    font-family: sans-serif;
+    box-shadow: 1px 1px 2px 2px black;
+    margin: 0 0 1rem 0;
+}
+
+button:hover, button:focus{
+    box-shadow: 0 0 20px 7px rgba(133, 70, 193, 0.967);
+
+}
+
+
+@media(min-width:415px){
+    main{
+        width: 45%;
+        margin: 4rem auto;
+    }
+   
+}

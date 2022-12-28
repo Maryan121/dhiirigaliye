@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiirigaliye</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f22559516b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h1>dhiirigaliye</h1>
+        <p class="details">si aad u hesho qoraalo kala duwan taabo buttonka hoose.</p>
+        <div class="container">
+            <p id="qoute">Marwliba masurto gleso inan helno wxa an ubahnahy balse waayitaankas aya ngu dhiiro galinaya inan awood usii yeelano inan mar-labaad raadino si aan ugu danbeyn uhelno.
+                Sidaa drteed mrnaba ha nqon qof ka quusta rajadiisa ama yoolka nloshisa </p>
+            <button id="generator">inta taabo</button>
+        </div>
+    </main>        
+
+
+
+    <script>
+        let generator = document.getElementById('generator');
+        let para = document.getElementById('qoute');
+        //the qoutes below
+        let arrayOfQoutes = ['Naftaada usame xirfad amba shaqo ugoni ah si ad ugu mshqusho amba ad hormar uga gartidInta aad ku mshquli lhed dadka kale guulohooda',
+                             'Dadaalkaaga ha joojin ilaa aad ka gaartid meesha aad dooneysay',
+                             'Is bar inaad is maareso oodan qofna ku tashan mxa yelay mantay qofka sidu yhy birito ma ahanayo balse wa inad  ogaata kaliya wx yaroo dhididkaga ah iney ka wngsnthy wxbdn oo lgu siiyo',
+                             'Hka niyd jabin nlsha xita hdad weydo mid kmida xibnahga mxa yelay awoodu kaliya ma aha xibnha ee waa hanka qofku leyhy iyo ad adeega uu mujiyo',
+                             'Ka Saar oo fursad ha usiinin dadka Isku daya had iyo jeer iney kaa hor istaagaan hamigaaga iyo qorshahaaga nololeed wxna ha u arkin hdlkoda Mxa yely iyaga nqon Dona kuwa ugu horeya ee guushada ka shekeya',
+                             'Waa in aad ka tallaabo dheereysaa dadka aad loolanka ugu wada jirtaan gaarista hadafka nololeed iyo guusha intaba.',
+                             'Marka aad halgameyso hareerahaaga oo dhami waa cidlo balse markaad guuleysato aduunka oo dhan baa ku wehlinaya.',
+                             'Marwliba masurto gleso inan helno wxa an ubahnahy balse waayitaankas aya ngu dhiiro galinaya inan awood usii yeelano inan mar-labaad raadino si aan ugu danbeyn uhelno.Sidaa drteed mrnaba ha nqon qof ka quusta rajadiisa ama yoolka nloshisa ',
+                             'Baro xirfado si aad nolosha ula jaanqaado',
+                             'marwalbo samee wax joogto ah oo ku anfacaya haba yaraadaanee',
+                             'naftaada bar wax aqriska si ay maskaxdaada u korto',
+                             'biyo badan cab',
+                             'caafimaadkaaga jireed iyo kan maskaxeedbka ka taxadar',
+                             'yeelo waqtiyo aad isxisaabiso oo naftaada la hadasho',
+                             'haka baqin inaad waxyaalo cusub tijaabiso',
+                             'xiriirka allaah kaala dhaxeeyo wanaaji',
+                             "sida markaa murugsantahay aad ilaahay faraj u weydiisato si lamida marka aad faraxsantahayne umahad celi inbadan ilaahay",
+                             'dadaalkaaga bixi suurogalintana ilaahay udaa oo qadartana aamin']
+        function myfunction(){
+                para.innerHTML = `" ${arrayOfQoutes[Math.floor(Math.random() * arrayOfQoutes.length)]} " <br>`;
+                
+            }
+        generator.addEventListener('click',myfunction);
+        
+    </script>
+</body>
+</html>
