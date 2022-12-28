@@ -11,7 +11,7 @@ body{
 
 /* container */
 main{
-    width: 85%;
+    width: 88%;
     margin: 1rem auto;
     margin-top: 2.5rem;
 }
@@ -28,7 +28,6 @@ h1{
 
 }
 .container{
-    /* background-color: rgb(183, 183, 215); */
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -40,7 +39,7 @@ h1{
     position: relative;
 }
 #qoute{
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: .2rem .5rem;
     font-weight: 500;
 }
